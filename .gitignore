@@ -1,0 +1,36 @@
+# Exported conversation files
+output/
+*_exports/
+*.md
+!README.md
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sensitive — never commit these
+*.cookie
+*.token
+config.local.*
+.env
